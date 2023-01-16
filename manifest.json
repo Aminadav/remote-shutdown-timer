@@ -1,0 +1,17 @@
+{
+  "action": {
+    "default_icon": {
+      "32": "icon48.png"
+    }
+  },
+  "name": "Remote shutdown timer",
+  "manifest_version": 3,
+  "version": "1",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://workers.boti.bot/*"],
+  "permissions": [
+    "alarms"
+  ]
+}
